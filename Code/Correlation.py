@@ -9,11 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from scipy.integrate import solve_ivp
-import itertools
-from sklearn.metrics.pairwise import cosine_similarity
-import Foodweb_model_qss as fm
-import networkx as nx
-from scipy.stats import entropy
+import Foodweb_model as fm
 
 
 beta = fm.beta
