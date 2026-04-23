@@ -10,7 +10,7 @@ Created on Wed May 28 12:03:10 2025
 import numpy as np
 import pandas as pd
 from scipy.integrate import solve_ivp
-import Foodweb_model_qss as fm
+import Foodweb_model as fm
 
 beta = fm.beta
 
